@@ -1,0 +1,97 @@
+ >>> print 'Hello, World!'
+
+SyntaxError: Missing parentheses in call to 'print'. 
+
+Explanation: Here we can see  a "syntax error" in the statement . Because the  parentheses are missing . The parentheses indicate that print is a function. So, If we  write a statement in print function without parentheses ,it will show syntax error. Because It does not follow the syntax rule .
+
+Comparing it with any similar examples in the textbook : 
+
+ " >>> print('Hello, World!') " 
+
+ This is an example of a print statement in the textbook . Here we can see there are parentheses in the statement . But in  the above statement there were no parentheses, that is why it showed syntax error. Hence , We need to put parentheses in the print statement  to run a program successfully .
+
+Description: As I am using python version 3 , it means a function about my version of python .
+
+
+
+>>> 1/2
+
+0.5
+
+Explanation:  Here is a statement "1/2"  and we get an output "0.5".  "/" this is an operator ,it is called arithmetic operator . The operator "/" performs division. So , there was a division in the statement and "0.5" is the answer of the division .
+
+ Comparing it with any similar examples in the textbook: 
+
+>>> 84 / 2  
+
+  42.0 
+
+This is an example of an arithmetic operator in the textbook which performs division. We can see this statement performs the same as the above statement .
+
+Description: It means an operator about my version of python.
+
+
+
+>>> type (1/2)
+
+<class 'float'>
+
+explanation: Here, we can see a statement "type(1/2)"  and the output we get is "class 'float'" . Here, "1/2" is the value  and from the statement "type (1/2)",   we get what types the values have . And the output  "<class 'float'>" tells us the class of the values . So, we can see the class of the values is float . Because there is division  and the answer of the division is 0.5. So it belongs to floating number point. that is why the class is float.
+
+
+
+Comparing it with any similar examples in the textbook: 
+
+>>> type (42.0) 
+
+<class 'float'>
+
+This is an example in the textbook . Here 42.0  is a floating number , So  when we write "type (42.0)" , the interpreter tells us the class of the value . the class of the value is "float". So we can see it works the same as the above statement works.
+
+Description: It means values and types about my version of python.
+
+
+
+>>>  print(01)
+
+SyntaxError: unexpected indent
+
+Explanation: Here ,we can see a syntax error in  the program . Because we can not print the integers this way .we have to set a variable to print the integers or we need to convert integers into string by putting quotation marks to display the integers. . 
+
+Comparing it with any similar examples in the textbook: 
+
+>>> type('2')
+
+< class 'str' >
+
+>>> type('42.0') 
+
+< class 'str' >
+
+These are the examples in the textbook. Here, "2" and "42.0" are the numbers. "2" is in integer and "42.0" is in floating number point.
+
+They are converted into strings ,
+
+Description: It means a function about my version of python.
+
+
+
+>>> 1/(2/3)
+
+1.5
+
+Explanation: Here , "1/(2/3)" is the statement and we get a result "1.5" . "/" this is an operator ,it is called arithmetic operator . The operator "/" performs division. Here , we can see 2/3 in the parentheses. So here . BODMAS rule  will be applied. (2/3) will be calculated first then the remaining part. The result we get is 1.5.
+
+Comparing it with any similar examples in the textbook: 
+
+>>> 84 / 2
+
+ 42.0
+
+This is the similar example in the textbook which performs division.
+
+Description: It means operators about my version of python.
+
+
+
+
